@@ -3,7 +3,10 @@
 
 def key_for_min_value(name_hash)
   name_hash.collect do |name, value|
-    if value < value 
-    puts "#{name}" end
+    if value 
+    "#{name}"
+    end
   end
 end
+
+#return name of lowest value compared to other values 
